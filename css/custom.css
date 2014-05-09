@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+p{
+	font-family: "Gabriela", serif;
+}
+h1{
+	text-align: center;
+	font-family: "Gabriela", serif;
+	font-size: 3em;
+}
+a{
+	font-family:'Open Sans', 'sans-serif';
+	text-decoration: none;
+	font-size: 2em;
+	color:#f7f5ec;
+}
+a:hover{
+	color:#94e4e3;
+	text-decoration: none;
+}
+.landing-background {
+	position:relative;
+}
+.landing-background img {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	background-color: #94e4e3;
+}
+.margin-top-30 {
+	margin-top:-11px;
+}
+.top{
+	position:absolute;
+	top:16%;
+	left:28%;
+	width:550px;
+	height:300px;
+}
+.tagline{
+	position:absolute;
+	top:30%;
+	left:52%;
+}
+.center{
+	text-align: center;
+}
+.download{
+	background-color: #94e4e3;
+}
+.appstore{
+	text-align: center;
+}
+.screenshot{
+	text-align:center;
+	background-color: #94e4e3;
+}
+.screenshot img{
+	text-align: center;
+	padding:5px 0px 15px 5px;
+	height:100%;
+	width:100%;
+	padding-bottom: 45px;
+}
+.hashtagSocial{
+	background-color: #86cc9e;
+	margin-bottom: -60px;
+}
+.social{
+	text-align:center;
+}
+.social img{
+	text-align:center;
+	padding:15px;
+	height:100%;
+	width:100%;
+}
+.quotes{
+	background-color: #f7f5ec;
+}
+.quotes h1{
+font-family: 'Open Sans', 'sans-serif';
+text-align:left;
+padding-left: 150px;
+padding-right: 150px;
+
+}
+.quoteSource{
+	color: #4eb564;
+	font-family: 'Open Sans', 'sans-serif';
+	font-size:.8em;
+	font-weight: bold;
+}
+.social{
+	background-color: #86cc9e;
+	padding-bottom: 35px;
+}
+.bounce{
+	-webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.bounce img:hover{
+	transform: rotate(-30deg);
+	-ms-transform:rotate(-30deg); /* IE 9 */
+-webkit-transform:rotate(-30deg); /* Opera, Chrome, and Safari */
+}
+.dev{
+	padding:45px;
+	background-color: #498d9c;
+}
+.devlog{
+	margin-bottom:70px;
+}
+.devlog img:hover{
+	-webkit-animation:spin 1s linear 1;
+    -moz-animation:spin 1s linear 1;
+    animation:spin 1s linear 1;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}
+
+.video-wrapper{
+	position:relative;
+	padding-bottom: 67.5%;
+	padding-top:30px;
+	margin-bottom: 16px;
+	overflow:hidden;
+}
+
+.video-wrapper iframe,
+.video-wrapper object,
+.video-wrapper embed{
+	position:absolute,
+	top:0;
+	left:0;
+	min-height: 200px;
+}
+.youtube{
+	background-color: #94e4e3;
+	padding:45px;
+}
+
+
+/*Phones */
+
+@media (max-width: 500px){
+	.quotes h1{
+		font-size: 2em;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.hashtag h1{
+		padding-left: 0px;
+		padding-right:0px;
+		font-size: 2.0em
+	}
+	.links{
+		font-size: 14px;
+	}
+	.appstore img{
+		height:120px;
+		width:300px;
+	}
+	.quotes h1{
+	padding-bottom:50px;
+}
+}
+@media (max-width: 768px) {
+.top{
+	top:5%;
+}
+
+.quotes h1{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+}
+
+/*iPad Portrait */
+@media (min-width: 769px) {
+.top{
+	top:8%;
+}
+}
+
+/*iPad Landscape*/
+@media (min-width: 1024px) {
+.top{
+	top:15%;
+}
+}
+
+/*Desktops*/
+@media (min-width: 1100px) {
+}
